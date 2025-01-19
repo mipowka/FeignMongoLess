@@ -14,7 +14,7 @@ public class GeoResponseDto {
     private Country country;
 
     @Data
-    static class City {
+    public static class City {
 
         private String name_ru;
     }
